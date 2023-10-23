@@ -1,8 +1,40 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
   /* color: #FF7F99;
-   color: #FFCA41;*/ 
+   color: #FFCA41;*/
   font-family: 'Jost', sans-serif;
 
 }
+
+.containerFeatureBody {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.boxFBody {
+  background-color: #FF7F99;
+  border-top-left-radius: 20px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 30px;
+  justify-content: center;
+  height: 40vw;
+  width:60vw ;
+}
+
+.boxTextoButtom{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h1 {
+  color: #FF7F99;
+  font-size:50px;
+  margin-top: 2vh;
+}
+p{margin-top: 2vh;}
