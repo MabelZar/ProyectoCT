@@ -12,6 +12,13 @@ header{
   background-color: #FF7F99;
 }
 .logo{
-  
+  display:flex;
+  justify-content: flex-start;
+}
+.login{
+  display: flex;
+  justify-content: space-between;
+}
+.buttonLogin{
   
 }
