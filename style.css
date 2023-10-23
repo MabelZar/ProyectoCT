@@ -4,5 +4,9 @@
   /* color: #FF7F99;
    color: #FFCA41;*/ 
   font-family: 'Jost', sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
 
 }
