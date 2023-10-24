@@ -16,10 +16,7 @@
 
 .boxFBody {
   background-color: #FF7F99;
-  border-top-left-radius: 20px;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 50px;
-border-bottom-left-radius: 30px;
+  border-radius: 100% 0% 100% 100%;
   justify-content: center;
   height: 40vw;
   width:60vw ;
