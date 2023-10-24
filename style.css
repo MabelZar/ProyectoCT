@@ -12,26 +12,65 @@
   display: flex;
   justify-content: space-between;
   justify-content: space-around;
+  height: 70vh;
+  width: 95vw;
+  margin: 3vh;
 }
 
-.boxFBody {
+.boxImgFBody {
   background-color: #FF7F99;
   border-radius: 100% 0% 100% 100%;
+  height: 70vh;
+  width: 40vw;
+  display: flex;
   justify-content: center;
-  height: 40vw;
-  width:60vw ;
+  align-items: center;
+  margin-left: 2vw;
 }
 
-.boxTextoButtom{
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+.imgFBody {
+  height: 65%;
+
 }
 
 h1 {
   color: #FF7F99;
-  font-size:50px;
+  font-size: 60px;
   margin-top: 2vh;
+  line-height: 82%;
 }
-p{margin-top: 2vh;}
+
+p {
+  font-weight: bold;
+  margin-top: 1.5vh;
+}
+
+.boxButtonFBody {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 5vh;
+  margin-right: 5vw;
+}
+
+.buttonFBody {
+  margin-top: 3vh;
+  background-color: #FFCA41;
+  border: none;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 12vw;
+  border-radius: 20px;
+}
+
+.buttonFBody:hover {
+  background-color: white;
+  color: #FFCA41;
+  border-color: #FFCA41;
+  transition: duration 0.4s;
+}
