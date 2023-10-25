@@ -98,10 +98,7 @@
     margin-block-end: 3%;
   }
   
-  .imgFBody {
-    height: 65%;
-  
-  }
+ 
   
   h1 {
     color: #FF7F99;
@@ -119,21 +116,34 @@
     width: 30vw;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
+    height: 43vh;
     margin-top: 5vh;
-    margin-left: 3%;
+    line-height: 2;
+   /* 
+   
+    margin-right: 5px;
+
+    
+    justify-content: flex-start;
+    
+    margin-left: 3%;*/
+  }
+
+  .buttonCall{
+    display: flex;
+   
+    
   }
   
   .buttonFBody {
-    margin-top: 3vh;
+  
     background-color: #FFCA41;
     border: none;
     color: white;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5vh;
+    
+    height: 4vh;
     width: 12vw;
     border-radius: 20px;
   }
