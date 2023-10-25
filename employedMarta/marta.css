@@ -125,12 +125,12 @@ p {
 }
 
 .linkButtonFBody {
+  width: 25vw;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+  }
 
 .boxButtonFBody {
+  margin-left: 3%;
   width: 30vw;
   display: flex;
   flex-direction: column;
@@ -140,15 +140,14 @@ p {
 }
 
 .buttonFBody {
-  margin-top: 3vh;
+ 
   background-color: #FFCA41;
   border: none;
   color: white;
   font-weight: bold;
-  display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
+  height: 4vh;
   width: 12vw;
   border-radius: 20px;
 }
