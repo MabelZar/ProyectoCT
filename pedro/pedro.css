@@ -91,6 +91,13 @@
   .imgFBody {
     height: 65%;
   }
+.buttonCall{
+    display:flex;
+justify-content: flex-start;
+margin-top: 2vh;
+}
+
+  
   h1 {
     color: #FF7F99;
     font-size: 60px;
@@ -110,7 +117,6 @@
     margin-left: 3%;
   }
   .buttonFBody {
-    margin-top: 3vh;
     background-color: #FFCA41;
     border: none;
     color: white;
@@ -118,7 +124,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh;
+    height: 4vh;
     width: 12vw;
     border-radius: 20px;
   }
