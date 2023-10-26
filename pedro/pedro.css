@@ -166,4 +166,10 @@ margin-top: 2vh;
     align-items: center;
     padding: 2%;
   }
+.none{
+  overflow: hidden;
+  height: 19vh;
+  width: 12vh;
+  border-radius: 100%;
+}
   /* FOOTER*/
