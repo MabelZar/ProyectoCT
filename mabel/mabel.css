@@ -110,39 +110,38 @@
   p {
     font-size: 16px;;
     margin-top: 1.5vh;
-    
+
   }
   .descriptionMabel{
-    font-size: 12px;
-    
+    height: 10vh;
+  width: 25vw;
+  font-size: 12px;
+  text-align: justify;
+  
+  }
+  .bolt{
+    font-weight: bold;
   }
   
   .boxButtonFBody {
     width: 30vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
     height: 43vh;
     margin-top: 5vh;
     line-height: 2;
    /* 
-   
     margin-right: 5px;
-
-    
     justify-content: flex-start;
-    
     margin-left: 3%;*/
   }
 
   .buttonCall{
     display: flex;
-   
-    
   }
   
   .buttonFBody {
-  
     background-color: #FFCA41;
     border: none;
     color: white;
@@ -185,7 +184,6 @@
     width: 25vw;
     border-radius: 100%;
     background-color: bisque;
-
   }
   
   .sizeImg:hover {
@@ -202,7 +200,6 @@
     flex-direction: column;
     align-items: center;
     padding: 2%;
-  
   }
   .none{
      overflow: hidden;
