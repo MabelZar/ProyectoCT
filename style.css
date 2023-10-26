@@ -28,16 +28,19 @@ header {
   font-weight: bold;
   margin-left: 3%;
 }
+
 .WeHelp {
   color: antiquewhite;
   font-weight: bold;
   font-size: 3vh;
 }
+
 .You {
   color: #FFCA41;
   font-weight: bold;
   font-size: 3vh;
 }
+
 .headerRight {
   display: flex;
   justify-content: space-around;
@@ -47,16 +50,18 @@ header {
   color: antiquewhite;
   font-size: 2vh;
 }
+
 /*.login{
   display: flex;
   justify-content: space-between; 
 }*/
-.contact{
+.contact {
   display: flex;
   align-items: center;
-  
+
 
 }
+
 .buttonLogin {
   border-radius: 20px;
   border-color: #FFCA41;
@@ -73,6 +78,7 @@ header {
   justify-content: space-between;
 
 }
+
 .boxImgFBody {
   background-color: #FF7F99;
   border-radius: 100% 0% 100% 100%;
@@ -85,28 +91,39 @@ header {
   margin-top: 3%;
   margin-block-end: 3%;
 }
+
 .imgFBody {
-  height: 65%;
+  height: 45vh;
+  width: 25vw;
+
+
 }
-h1 {
+
+.bussinesName {
   color: #FF7F99;
-  font-size: 380%;
+  height: 10vh;
+  width: 25vw;
+  font-size: 1.5em;
   margin-top: 2vh;
-  line-height: 82%;
  
+
+
 }
+
 p {
   font-weight: bold;
   margin-top: 1.5vh;
 }
+
 .boxButtonFBody {
   width: 30vw;
+  height: 43vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 5vh;
-  margin-left: 3%;
+   margin-top: 5vh;
+ 
 }
+
 .buttonFBody {
   margin-top: 3vh;
   background-color: #FFCA41;
@@ -120,12 +137,14 @@ p {
   width: 12vw;
   border-radius: 20px;
 }
+
 .buttonFBody:hover {
   background-color: white;
   color: #FFCA41;
   border-color: #FFCA41;
   transition: 0.4s;
 }
+
 /* FOOTER*/
 .contentFooter {
   background-color: #FF7F99;
@@ -136,6 +155,7 @@ p {
   padding-right: 5%;
   padding-left: 5%;
 }
+
 .sizeImg {
   height: 19vh;
   width: 12vw;
@@ -145,24 +165,28 @@ p {
   /*efecto zoom*/
   transition: transform 0.25s;
 }
+
 .sizeImg:hover {
   --escala: 1.2;
   cursor: pointer;
 }
+
 .name {
   color: aliceblue;
 }
+
 .boxIcon {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2%;
 }
-.none{
-   overflow: hidden;
-   height: 19vh;
-    width: 12vw;
-    border-radius: 100%;
+
+.none {
+  overflow: hidden;
+  height: 19vh;
+  width: 12vw;
+  border-radius: 100%;
 }
 
 

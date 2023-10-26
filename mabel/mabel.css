@@ -127,7 +127,7 @@
     width: 30vw;
     display: flex;
     flex-direction: column;
-    
+    text-align: justify;
     height: 43vh;
     margin-top: 5vh;
     line-height: 2;
