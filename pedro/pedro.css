@@ -186,10 +186,7 @@ p {
 
 .none {
   overflow: hidden;
-  height: 19vh;
-  width: 12vh;
-
-  border-radius: 100%;
+    border-radius: 100%;
 }
 
 /* FOOTER*/
