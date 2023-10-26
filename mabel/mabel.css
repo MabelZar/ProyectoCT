@@ -108,8 +108,13 @@
   }
   
   p {
-    font-weight: bold;
+    font-size: 16px;;
     margin-top: 1.5vh;
+    
+  }
+  .descriptionMabel{
+    font-size: 12px;
+    
   }
   
   .boxButtonFBody {
@@ -201,7 +206,5 @@
   }
   .none{
      overflow: hidden;
-     height: 19vh;
-      width: 12vw;
       border-radius: 100%;
   }
