@@ -160,6 +160,7 @@ p {
 }
 
 /* FOOTER*/
+
 .contentFooter {
   background-color: #FF7F99;
   height: 40vh;
@@ -196,6 +197,13 @@ p {
   padding: 2%;
 
 }
+.none{
+   overflow: hidden;
+   height: 19vh;
+    width: 12vw;
+    border-radius: 100%;
+}
+
 
 
 /* FOOTER*/
