@@ -19,7 +19,6 @@ header {
   justify-content: space-around;
   height: 9vh;
   background-color: #FF7F99;
-
 }
 
 .logo {
@@ -29,19 +28,16 @@ header {
   font-weight: bold;
   margin-left: 3%;
 }
-
 .WeHelp {
   color: antiquewhite;
   font-weight: bold;
   font-size: 3vh;
 }
-
 .You {
   color: #FFCA41;
   font-weight: bold;
   font-size: 3vh;
 }
-
 .headerRight {
   display: flex;
   justify-content: space-around;
@@ -51,7 +47,6 @@ header {
   color: antiquewhite;
   font-size: 2vh;
 }
-
 /*.login{
   display: flex;
   justify-content: space-between; 
@@ -63,7 +58,6 @@ header {
   height: 9vh;
   margin-block-end: 5%;
 }
-
 .buttonLogin {
   border-radius: 20px;
   border-color: #FFCA41;
@@ -72,19 +66,15 @@ header {
   background-color: #FF7F99;
   color: antiquewhite;
   font-size: 2vh;
- 
-  
 }
 
 /*feature Body*/
-
 .containerFeatureBody {
   background-color: white;
   display: flex;
   justify-content: space-between;
 
 }
-
 .boxImgFBody {
   background-color: #FF7F99;
   border-radius: 100% 0% 100% 100%;
@@ -97,24 +87,19 @@ header {
   margin-top: 3%;
   margin-block-end: 3%;
 }
-
 .imgFBody {
   height: 65%;
-
 }
-
 h1 {
   color: #FF7F99;
   font-size: 60px;
   margin-top: 2vh;
   line-height: 82%;
 }
-
 p {
   font-weight: bold;
   margin-top: 1.5vh;
 }
-
 .boxButtonFBody {
   width: 30vw;
   display: flex;
@@ -123,7 +108,6 @@ p {
   margin-top: 5vh;
   margin-left: 3%;
 }
-
 .buttonFBody {
   margin-top: 3vh;
   background-color: #FFCA41;
@@ -137,14 +121,12 @@ p {
   width: 12vw;
   border-radius: 20px;
 }
-
 .buttonFBody:hover {
   background-color: white;
   color: #FFCA41;
   border-color: #FFCA41;
   transition: 0.4s;
 }
-
 /* FOOTER*/
 .contentFooter {
   background-color: #FF7F99;
@@ -155,7 +137,6 @@ p {
   padding-right: 5%;
   padding-left: 5%;
 }
-
 .sizeImg {
   height: 19vh;
   width: 12vw;
@@ -165,22 +146,18 @@ p {
   /*efecto zoom*/
   transition: transform 0.25s;
 }
-
 .sizeImg:hover {
   --escala: 1.2;
   cursor: pointer;
 }
-
 .name {
   color: aliceblue;
 }
-
 .boxIcon {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2%;
-
 }
 .none{
    overflow: hidden;
