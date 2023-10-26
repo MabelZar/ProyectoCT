@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   /* color: #FF7F99;
-   color: #FFCA41;*/
+     color: #FFCA41;*/
   font-family: 'Jost', sans-serif;
 }
 
@@ -19,6 +19,7 @@ header {
   justify-content: space-around;
   height: 9vh;
   background-color: #FF7F99;
+
 }
 
 .logo {
@@ -28,16 +29,19 @@ header {
   font-weight: bold;
   margin-left: 3%;
 }
+
 .WeHelp {
   color: antiquewhite;
   font-weight: bold;
   font-size: 3vh;
 }
+
 .You {
   color: #FFCA41;
   font-weight: bold;
   font-size: 3vh;
 }
+
 .headerRight {
   display: flex;
   justify-content: space-around;
@@ -47,16 +51,18 @@ header {
   color: antiquewhite;
   font-size: 2vh;
 }
+
 /*.login{
   display: flex;
   justify-content: space-between; 
 }*/
-.contact{
+.contact {
   display: flex;
   align-items: center;
-  
+
 
 }
+
 .buttonLogin {
   border-radius: 20px;
   border-color: #FFCA41;
@@ -64,15 +70,20 @@ header {
   background-color: #FF7F99;
   color: antiquewhite;
   font-size: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch
 }
 
 /*feature Body*/
+
 .containerFeatureBody {
   background-color: white;
   display: flex;
   justify-content: space-between;
 
 }
+
 .boxImgFBody {
   background-color: #FF7F99;
   border-radius: 100% 0% 100% 100%;
@@ -85,21 +96,41 @@ header {
   margin-top: 3%;
   margin-block-end: 3%;
 }
-.imgFBody {
-  height: 65%;
+
+
+.sizeImgFBody {
+  height: 59vh;
+  width: 29vw;
+  border-radius: 100%;
+  background-color: bisque;
 }
+
 h1 {
   color: #FF7F99;
-  font-size: 380%;
+  font-size: 60px;
   margin-top: 2vh;
   line-height: 82%;
- 
 }
+
 p {
   font-weight: bold;
   margin-top: 1.5vh;
 }
+
+.descriptionFBody {
+  height: 10vh;
+  width: 25vw;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.linkButtonFBody {
+  width: 25vw;
+  display: flex;
+  }
+
 .boxButtonFBody {
+  margin-left: 3%;
   width: 30vw;
   display: flex;
   flex-direction: column;
@@ -107,26 +138,29 @@ p {
   margin-top: 5vh;
   margin-left: 3%;
 }
+
 .buttonFBody {
-  margin-top: 3vh;
+ 
   background-color: #FFCA41;
   border: none;
   color: white;
   font-weight: bold;
-  display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
+  height: 4vh;
   width: 12vw;
   border-radius: 20px;
 }
+
 .buttonFBody:hover {
   background-color: white;
   color: #FFCA41;
   border-color: #FFCA41;
   transition: 0.4s;
 }
+
 /* FOOTER*/
+
 .contentFooter {
   background-color: #FF7F99;
   height: 40vh;
@@ -136,6 +170,7 @@ p {
   padding-right: 5%;
   padding-left: 5%;
 }
+
 .sizeImg {
   height: 19vh;
   width: 12vw;
@@ -145,18 +180,22 @@ p {
   /*efecto zoom*/
   transition: transform 0.25s;
 }
+
 .sizeImg:hover {
   --escala: 1.2;
   cursor: pointer;
 }
+
 .name {
   color: aliceblue;
 }
+
 .boxIcon {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2%;
+
 }
 .none{
    overflow: hidden;
@@ -164,6 +203,7 @@ p {
     width: 12vw;
     border-radius: 100%;
 }
+
 
 
 /* FOOTER*/
