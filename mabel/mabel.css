@@ -11,6 +11,18 @@
     margin-right: 15%;
     background-color: black;
   }
+
+   /* QUERY*/
+@media(max-width:450px) {
+  .body{
+    display: flex;
+    
+  }
+  
+}
+    /* QUERY*/
+
+  
   
   /*header*/
   
@@ -169,6 +181,15 @@
     padding-right: 5%;
     padding-left: 5%;
   }
+  /* QUERY*/
+@media(max-width:450px) {
+  .contentFooter{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+    /* QUERY*/
   
   .sizeImg {
     height: 19vh;
@@ -204,4 +225,6 @@
   .none{
      overflow: hidden;
       border-radius: 100%;
-  }
+  }/*FOOTER*/
+
+   
