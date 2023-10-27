@@ -124,11 +124,11 @@ header {
 
 .boxButtonFBody {
   width: 30vw;
+  height: 43vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 5vh;
-  margin-left: 3%;
+   margin-top: 5vh;
+ 
 }
 
 @media (max-width: 480px) {
