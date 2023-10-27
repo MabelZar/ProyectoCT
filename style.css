@@ -293,13 +293,14 @@ header {
     margin-left: 0%;
     margin-right: 0%;
   }
-}
+
 
   .contentFooter {
     display: flex;
     flex-direction: column;
     height: 100vh;
   }
+}
 /*
   .containerFeatureBody {
     display: flex;
