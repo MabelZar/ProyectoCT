@@ -16,11 +16,17 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+
   height: 9vh;
   background-color: #FF7F99;
 }
-
+@media (max-width: 480px) {
+  header {
+    height: 12.5vh;
+    padding: 1vh;
+  }
+}
 .logo {
   display: flex;
   justify-content: center;
@@ -35,6 +41,13 @@ header {
   font-size: 3vh;
 }
 
+@media (max-width: 480px) {
+  .logo {
+     font-size:1em;
+
+}
+}
+
 .You {
   color: #FFCA41;
   font-weight: bold;
@@ -42,34 +55,40 @@ header {
 }
 
 .headerRight {
+  width: 25vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-left: 40%;
-  width: 40vw;
+  margin-right: 5%;
   color: antiquewhite;
   font-size: 2vh;
+}
+@media (max-width:480px) {
+  .headerRight {
+    font-size:0.8em;
+    flex-direction: column;
+  }
+}
+
+.buttonHeader {
+  width: 8vw;
+  padding: 0.5vw;
+  color: antiquewhite;
+  font-size: 2vh;
+  border-radius: 20px;
+  border-color: #FFCA41;
+  background-color: #e65d78;
+}
+@media (max-width:480px) {
+  .buttonHeader {
+    font-size:0.9em;
+  }
 }
 
 /*.login{
   display: flex;
   justify-content: space-between; 
 }*/
-.contact {
-  display: flex;
-  align-items: center;
-
-
-}
-
-.buttonLogin {
-  border-radius: 20px;
-  border-color: #FFCA41;
-  width: 10vw;
-  background-color: #FF7F99;
-  color: antiquewhite;
-  font-size: 2vh;
-}
 
 /*feature Body*/
 .containerFeatureBody {
@@ -105,23 +124,24 @@ header {
   width: 25vw;
   font-size: 1.5em;
   margin-top: 2vh;
- 
+
 
 
 }
 
+/*
 p {
   font-weight: bold;
   margin-top: 1.5vh;
-}
+}*/
 
 .boxButtonFBody {
   width: 30vw;
   height: 43vh;
   display: flex;
   flex-direction: column;
-   margin-top: 5vh;
- 
+  margin-top: 5vh;
+
 }
 
 .buttonFBody {
