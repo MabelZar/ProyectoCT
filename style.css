@@ -20,18 +20,21 @@ header {
   height: 9vh;
   background-color: #FF7F99;
 }
+
 @media (max-width: 480px) {
   header {
     height: 12.5vh;
     padding: 1vh;
   }
-  @media (max-width: 800px) {
-    header { 
+
+  @media (max-width: 920px) {
+    header {
       height: 12.5vh;
       padding: 1vh;
     }
   }
 }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -48,16 +51,14 @@ header {
 
 @media (max-width: 480px) {
   .logo {
-     font-size:1em;
+    font-size: 1em;
+  }
 }
-}
-
 .You {
   color: #FFCA41;
   font-weight: bold;
   font-size: 3vh;
 }
-
 .headerRight {
   width: 25vw;
   display: flex;
@@ -67,19 +68,21 @@ header {
   color: antiquewhite;
   font-size: 2vh;
 }
-@media (max-width:480px) {
-  .headerRight {
-    font-size:0.8em;
-    flex-direction: column;
-  }
-  @media (max-width:800px) {
+
+
+  @media (max-width: 920px) {
     .headerRight {
       display: flex;
+      font-size: 1em;
+      flex-direction: column;
+    }
+  }
+  @media (max-width:480px) {
+    .headerRight {
       font-size: 0.8em;
       flex-direction: column;
     }
   }
-}
 .buttonHeader {
   width: 8vw;
   padding: 0.5vw;
@@ -89,13 +92,21 @@ header {
   border-color: #FFCA41;
   background-color: #e65d78;
 }
-@media (max-width:480px) {
+
+  @media (max-width:920px) {
+    .buttonHeader {
+    font-size: 1em;
+    width: 15vw;
+    padding: 0.5vw;
+  }
+}
+@media (max-width:500px) {
   .buttonHeader {
-    font-size:0.9em;
+    font-size: 0.9em;
     display: flex;
     justify-content: center;
-    width: 20vw;
-    padding: 0.5vw;
+    width: 21vw;
+    padding: 2vw;
   }
 }
 
@@ -153,9 +164,9 @@ header {
 .bold {
   font-weight: bold;
   margin-top: 1.5vh;
-}*/
+}
 
-.boxButtonFBody {
+*/ .boxButtonFBody {
   width: 30vw;
   height: 43vh;
   display: flex;
