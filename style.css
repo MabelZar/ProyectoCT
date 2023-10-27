@@ -16,24 +16,34 @@ body {
 
 header {
   display: flex;
-  
   height: 9vh;
   background-color: #FF7F99;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   header {
     height: 12.5vh;
     padding: 1vh;
   }
+  .logo {
+    font-size: 1em;
+  }
+  .headerRight {
+    font-size: 0.8em;
+    flex-direction: column;
 
+
+  }
+
+}
   @media (max-width: 920px) {
     header {
       height: 12.5vh;
       padding: 1vh;
+      
     }
   }
-}
+
 
 .logo {
   display: flex;
@@ -49,16 +59,8 @@ header {
   font-size: 3vh;
 }
 
-@media (max-width: 480px) {
-  .logo {
-    font-size: 1em;
-  }
-  .headerRight {
-    font-size: 0.8em;
-    flex-direction: column;
-  }
 
-}
+
 .You {
   color: #FFCA41;
   font-weight: bold;
@@ -73,8 +75,6 @@ header {
   color: antiquewhite;
   font-size: 2vh;
 }
-
-
   @media (max-width: 920px) {
     .headerRight {
       font-size: 3em;
@@ -89,7 +89,7 @@ header {
   }
  
 .buttonHeader {
-
+  
   padding: 0.5vh;
   color: antiquewhite;
   font-size: 2vh;
@@ -101,7 +101,6 @@ header {
   @media (max-width:920px) {
     .buttonHeader {
     font-size: 1em;
-    width: 15vw;
     padding: 0.5vw;
   }
 }
@@ -110,7 +109,7 @@ header {
     font-size: 0.9em;
     display: flex;
     justify-content: center;
-    width: 21vw;
+    width: 21vh
     padding: 2vw;
   }
 }
