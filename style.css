@@ -112,25 +112,31 @@ header {
 }
 
 .imgFBody {
-  height: 45vh;
-  width: 25vw;
-
-
+  height: 50vh;
+  width: 23vw;
 }
 
-.bussinesName {
+@media (max-width: 480px) {
+  .boxImgFBody {
+    display: none;
+  }
+}
+
+.textTitle {
   color: #FF7F99;
-  height: 10vh;
-  width: 25vw;
-  font-size: 1.5em;
+  font-size: 4rem;
   margin-top: 2vh;
-
-
-
+  line-height: 82%;
+  word-wrap: break-word;
 }
 
-/*
-p {
+@media (max-width: 480px) {
+  .textTitle {
+    font-size: 2em;
+  }
+}
+
+.bold {
   font-weight: bold;
   margin-top: 1.5vh;
 }*/
@@ -144,6 +150,12 @@ p {
 
 }
 
+@media (max-width: 480px) {
+  .boxButtonFBody {
+    width: auto;
+  }
+}
+
 .buttonFBody {
   margin-top: 3vh;
   background-color: #FFCA41;
@@ -153,9 +165,16 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
-  width: 12vw;
+  width: 10vw;
+  padding: 1vw;
   border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  .buttonFBody {
+    width: 25vw;
+    margin: 2px;
+  }
 }
 
 .buttonFBody:hover {
@@ -209,5 +228,35 @@ p {
   border-radius: 100%;
 }
 
+@media(max-width:600px) {
+  body {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .contentFooter {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .containerFeatureBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boxImgFBody {
+    background-color: #FFCA41;
+    border-radius: 100% 100% 100% 100%;
+    width: 28vh;
+  }
+}
+
+@media(hover:hover) {
+  .WeHelp:hover {
+    color: #FFCA41;
+  }
+}
 
 /* FOOTER*/
