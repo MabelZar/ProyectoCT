@@ -79,6 +79,15 @@ header {
 
 }
 
+@media (max-width: 900px) {
+  .containerFeatureBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+  }
+}
+
 .boxImgFBody {
   background-color: #FF7F99;
   border-radius: 100% 0% 100% 100%;
@@ -103,6 +112,21 @@ header {
   }
 }
 
+  @media (max-width: 900px) {
+    .boxImgFBody {
+      height: 40vh;
+      width: 60vw;
+
+    }
+  }
+  @media (max-width: 900px) {
+    .imgFBody {  
+      height: 40vh;
+      width: 30vw;
+  }
+}
+
+
 .textTitle {
   color: #FF7F99;
   font-size: 4rem;
@@ -116,6 +140,13 @@ header {
     font-size: 2em;
   }
 }
+
+@media (max-width: 900px) {
+  .textTitle {
+    font-size: 3em;
+  }
+}
+
 
 .bold {
   font-weight: bold;
@@ -134,8 +165,22 @@ header {
 @media (max-width: 480px) {
   .boxButtonFBody {
     width: auto;
+    height: 25vh;
+    margin-top: 2vh;
+    justify-content: space-around;
+
   }
 }
+
+
+@media (max-width: 900px) {
+  .boxButtonFBody {
+    width: auto;
+    height: 25vh;
+  }
+}
+
+
 
 .buttonFBody {
   margin-top: 3vh;
@@ -153,8 +198,9 @@ header {
 
 @media (max-width: 480px) {
   .buttonFBody {
-    width: 25vw;
+    width: 30vw;
     margin: 2px;
+    padding: 2vw;
   }
 }
 
