@@ -28,16 +28,19 @@ header {
   font-weight: bold;
   margin-left: 3%;
 }
+
 .WeHelp {
   color: antiquewhite;
   font-weight: bold;
   font-size: 3vh;
 }
+
 .You {
   color: #FFCA41;
   font-weight: bold;
   font-size: 3vh;
 }
+
 .headerRight {
   display: flex;
   justify-content: space-around;
@@ -47,16 +50,18 @@ header {
   color: antiquewhite;
   font-size: 2vh;
 }
+
 /*.login{
   display: flex;
   justify-content: space-between; 
 }*/
-.contact{
+.contact {
   display: flex;
   align-items: center;
-  
+
 
 }
+
 .buttonLogin {
   border-radius: 20px;
   border-color: #FFCA41;
@@ -73,6 +78,7 @@ header {
   justify-content: space-between;
 
 }
+
 .boxImgFBody {
   background-color: #FF7F99;
   border-radius: 100% 0% 100% 100%;
@@ -85,20 +91,37 @@ header {
   margin-top: 3%;
   margin-block-end: 3%;
 }
+
 .imgFBody {
-  height: 65%;
+  height: 50vh;
+  width: 23vw;
 }
-h1 {
+
+@media (max-width: 480px) {
+  .boxImgFBody {
+    display: none;
+  }
+}
+
+.textTitle {
   color: #FF7F99;
-  font-size: 380%;
+  font-size: 4rem;
   margin-top: 2vh;
   line-height: 82%;
- 
+  word-wrap: break-word;
 }
-p {
+
+@media (max-width: 480px) {
+  .textTitle {
+    font-size: 2em;
+  }
+}
+
+.bold {
   font-weight: bold;
   margin-top: 1.5vh;
 }
+
 .boxButtonFBody {
   width: 30vw;
   display: flex;
@@ -107,6 +130,14 @@ p {
   margin-top: 5vh;
   margin-left: 3%;
 }
+
+@media (max-width: 480px) {
+  .boxButtonFBody {
+    width: auto;
+    margin-top: 0vh;
+  }
+}
+
 .buttonFBody {
   margin-top: 3vh;
   background-color: #FFCA41;
@@ -116,16 +147,25 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
-  width: 12vw;
+  width: 10vw;
+  padding: 1vw;
   border-radius: 20px;
 }
+
+@media (max-width: 480px) {
+  .buttonFBody {
+    width: 25vw;
+    margin: 2px;
+  }
+}
+
 .buttonFBody:hover {
   background-color: white;
   color: #FFCA41;
   border-color: #FFCA41;
   transition: 0.4s;
 }
+
 /* FOOTER*/
 .contentFooter {
   background-color: #FF7F99;
@@ -136,6 +176,7 @@ p {
   padding-right: 5%;
   padding-left: 5%;
 }
+
 .sizeImg {
   height: 19vh;
   width: 12vw;
@@ -145,24 +186,28 @@ p {
   /*efecto zoom*/
   transition: transform 0.25s;
 }
+
 .sizeImg:hover {
   --escala: 1.2;
   cursor: pointer;
 }
+
 .name {
   color: aliceblue;
 }
+
 .boxIcon {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2%;
 }
-.none{
-   overflow: hidden;
-   height: 19vh;
-    width: 12vw;
-    border-radius: 100%;
+
+.none {
+  overflow: hidden;
+  height: 19vh;
+  width: 12vw;
+  border-radius: 100%;
 }
 
 
