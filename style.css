@@ -109,7 +109,7 @@ header {
     font-size: 0.9em;
     display: flex;
     justify-content: center;
-    width: 21vh
+    width: 21vh;
     padding: 2vw;
   }
 }
