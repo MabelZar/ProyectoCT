@@ -16,10 +16,8 @@
   
   header {
     display: flex;
-    justify-content: space-around;
     height: 9vh;
     background-color: #FF7F99;
-  
   }
   
   .logo {
@@ -43,19 +41,14 @@
   }
   
   .headerRight {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 40%;
-    width: 40vw;
-    color: antiquewhite;
-    font-size: 2vh;
+    width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2vh;
+  color: antiquewhite;
+  font-size: 2vh;
   }
-  
-  /*.login{
-    display: flex;
-    justify-content: space-between; 
-  }*/
   .contact{
     display: flex;
     align-items: center;
@@ -64,17 +57,21 @@
     margin-block-end: 5%;
   }
   
-  .buttonLogin {
-    border-radius: 20px;
-    border-color: #FFCA41;
-    width: 10vw;
-    
-    background-color: #FF7F99;
-    color: antiquewhite;
-    font-size: 2vh;
+  .buttonHeader {
+    padding: 0.5vh;
+  color: antiquewhite;
+  font-size: 2vh;
+  border-radius: 20px;
+  border-color: #FFCA41;
+  background-color: #e65d78;
+  cursor:pointer;
    
+  }
+  .Equipo{
+    margin:2vh
     
   }
+
   
   /*feature Body*/
   
@@ -82,7 +79,6 @@
     background-color: white;
     display: flex;
     justify-content:space-around;
-  
   }
   
   .boxImgFBody {
@@ -106,16 +102,13 @@
   }
   
   p {
-    font-size: 16px;;
-    margin-top: 1.5vh;
-
+    font-size: 16px;
   }
   .descriptionMabel{
     height: 10vh;
   width: 25vw;
   font-size: 12px;
   text-align: justify;
-  
   }
   .bolt{
     font-weight: bold;
@@ -129,25 +122,25 @@
     height: 43vh;
     margin-top: 5vh;
     line-height: 2;
-   /* 
-    margin-right: 5px;
-    justify-content: flex-start;
-    margin-left: 3%;*/
   }
 
   .buttonCall{
     display: flex;
+    justify-content: flex-start;
+    margin-top: 2vh;
   }
   
   .buttonFBody {
-    background-color: #FFCA41;
-    border: none;
-    color: white;
-    font-weight: bold;
-    
-    height: 4vh;
-    width: 12vw;
-    border-radius: 20px;
+  background-color: #FFCA41;
+  border: none;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12vw;
+  padding: 1vw;
+  border-radius: 20px;
   }
   
   .buttonFBody:hover {
@@ -214,14 +207,36 @@
     flex-direction: column;
     height: 100vh;
     margin-top: 10%;
+  }/*query header*/
+  header {
+    height: 12.5vh;
+    padding: 1vh;
+  }
+  .logo {
+    font-size: 1em;
+  }
+  .headerRight {
+    font-size: 0.8em;
+    flex-direction: column;
   }
 }
 
-@media(max-width:920px) {
+@media(max-width:900px) {
   body {
     margin-left: 0%;
     margin-right: 0%;
     height: 100%;
+  }
+  header {
+    height: 12.5vh;
+    padding: 1vh;
+    
+  }
+  .headerRight {
+    font-size: 5em;
+    display: flex;
+    font-size: 1em;
+    flex-direction: column;
   }
 }
 @media(hover:hover) {
