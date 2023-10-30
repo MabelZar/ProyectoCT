@@ -20,27 +20,8 @@ header {
   background-color: #FF7F99;
 
 }
-@media (max-width: 500px) {
-  header {
-    height: 12.5vh;
-    padding: 1vh;
-  }
-  .logo {
-    font-size: 1em;
-  }
-  .headerRight {
-    font-size: 0.8em;
-    flex-direction: column;
 
-  }
-}
-@media (max-width: 920px) {
-  header {
-    height: 12.5vh;
-    padding: 1vh;
-    
-  }
-}
+
 
 .logo {
   display: flex;
@@ -71,14 +52,8 @@ header {
   color: antiquewhite;
   font-size: 2vh;
 }
-@media (max-width: 920px) {
-  .headerRight {
-    font-size: 5em;
-    display: flex;
-    font-size: 1em;
-    flex-direction: column;
-  }
-}
+
+  
 .Equipo{
   margin:2vh
   
@@ -100,6 +75,17 @@ cursor:pointer;
   font-size: 1em;
   padding: 0.5vw;
 }
+.headerRight {
+  font-size: 5em;
+  display: flex;
+  font-size: 1em;
+  flex-direction: column;
+}
+header {
+  height: 12.5vh;
+  padding: 1vh;
+  
+}
 }
 @media (max-width:500px) {
 .buttonHeader {
@@ -108,6 +94,18 @@ cursor:pointer;
   justify-content: center;
   width: 21vh;
   padding: 2vw;
+}
+header {
+  height: 12.5vh;
+  padding: 1vh;
+}
+.logo {
+  font-size: 1em;
+}
+.headerRight {
+  font-size: 0.8em;
+  flex-direction: column;
+
 }
 }
 /*.login{
@@ -157,7 +155,7 @@ h1 {
 
 p {
   font-weight: bold;
-  margin-top: 1.5vh;
+  
 }
 
 .boxButtonFBody {
