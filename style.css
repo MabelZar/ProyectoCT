@@ -20,32 +20,6 @@ header {
   background-color: #FF7F99;
 }
 
-@media (max-width: 500px) {
-  header {
-    height: 12.5vh;
-    padding: 1vh;
-  }
-
-  .logo {
-    font-size: 1em;
-  }
-
-  .headerRight {
-    font-size: 0.8em;
-    flex-direction: column;
-
-  }
-}
-
-@media (max-width: 920px) {
-  header {
-    height: 12.5vh;
-    padding: 1vh;
-
-  }
-}
-
-
 .logo {
   display: flex;
   justify-content: center;
@@ -59,19 +33,6 @@ header {
   font-weight: bold;
   font-size: 3vh;
 }
-
-@media (max-width: 480px) {
-  .logo {
-    font-size: 1em;
-  }
-
-  .headerRight {
-    font-size: 0.8em;
-    flex-direction: column;
-  }
-
-}
-
 
 .You {
   color: #FFCA41;
@@ -89,23 +50,6 @@ header {
   font-size: 2vh;
 }
 
-@media (max-width:500px) {
-  .headerRight {
-    font-size: 0.8em;
-    flex-direction: column;
-  }
-}
-
-
-@media (max-width: 920px) {
-  .headerRight {
-    font-size: 5em;
-    display: flex;
-    font-size: 1em;
-    flex-direction: column;
-  }
-}
-
 .Equipo {
   margin: 2vh
 }
@@ -119,23 +63,6 @@ header {
   border-color: #FFCA41;
   background-color: #e65d78;
   cursor: pointer;
-}
-
-@media (max-width:920px) {
-  .buttonHeader {
-    font-size: 1em;
-    padding: 0.5vw;
-  }
-}
-
-@media (max-width:500px) {
-  .buttonHeader {
-    font-size: 0.9em;
-    display: flex;
-    justify-content: center;
-    width: 21vh;
-    padding: 2vw;
-  }
 }
 
 /*feature Body*/
@@ -174,7 +101,7 @@ header {
 
 .bold {
   font-weight: bold;
-  margin-top: 1.5vh;
+  margin-top: 2vh;
   line-height: 82%;
 }
 
@@ -188,7 +115,6 @@ header {
   
 }
 
-
 .buttonFBody {
   background-color: #FFCA41;
   border: none;
@@ -198,6 +124,7 @@ header {
   margin: 6px;
   padding: 1vw;
   border-radius: 20px;
+  margin-top: 5%;
 }
 
 
@@ -221,7 +148,7 @@ header {
 
 .sizeImg {
   height: 19vh;
-  width: 12vh;
+  width: 18vh;
   border-radius: 100%;
   background-color: bisque;
   transform: scale(var(--escala, 1));
@@ -236,6 +163,7 @@ header {
 
 .name {
   color: aliceblue;
+  margin-top: 5%;
 }
 
 .boxIcon {
@@ -248,162 +176,139 @@ header {
 .none {
   overflow: hidden;
   height: 19vh;
-  width: 12vh;
+  width: 18vh;
   border-radius: 100%;
 }
 
-@media(max-width:500px) {
+.buttonFBody:hover {
+  background-color: white;
+  color: #FFCA41;
+  border-color: #FFCA41;
+  transition: 0.4s;
+}
+
+/*query */
+
+@media (max-width: 920px) {
   body {
     margin-left: 0%;
     margin-right: 0%;
   }
-}
+ 
+  header {
+    height: 12.5vh;
+    padding: 1vh;
+  }
+  .headerRight {
+    font-size: 5em;
+    display: flex;
+    font-size: 1em;
+    flex-direction: column;
+  }
+  .buttonHeader {
+    font-size: 1em;
+    padding: 0.5vw;
+  }
+    .containerFeatureBody {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+       }
+  
+    .boxImgFBody {
+      height: 40vh;
+      width: 60vw;
+    }
+  
+    .imgFBody {
+      height: 40vh;
+      width: 35vw;
+    }
+  
+    .textTitle {
+      font-size: 3em;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .bold {
+      width: 50vw;
+      text-align: center;
+    }
+  
+    .boxButtonFBody {
+      height: 25vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-.contentFooter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 15vh;
-  padding: 1vw;
-  border-radius: 20px;
-}
+  }
 
 @media (max-width: 500px) {
-  .buttonFBody {
-    width: 30vw;
-    margin: 8%;
-    padding: 2vw;
-  }
-}
-
-.buttonFBody:hover {
-  background-color: white;
-  color: #FFCA41;
-  border-color: #FFCA41;
-  transition: 0.4s;
-}
-
-/* FOOTER*/
-.contentFooter {
-  background-color: #FF7F99;
-  height: 40vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-right: 5%;
-  padding-left: 5%;
-}
-
-.sizeImg {
-  height: 19vh;
-  width: 12vw;
-  border-radius: 100%;
-  background-color: bisque;
-  transform: scale(var(--escala, 1));
-  /*efecto zoom*/
-  transition: transform 0.25s;
-}
-
-.sizeImg:hover {
-  --escala: 1.2;
-  cursor: pointer;
-}
-
-.name {
-  color: aliceblue;
-}
-
-.boxIcon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2%;
-}
-
-.none {
-  overflow: hidden;
-  height: 19vh;
-  width: 12vw;
-  border-radius: 100%;
-}
-
-@media(max-width:600px) {
-  .body {
+  body {
     margin-left: 0%;
     margin-right: 0%;
   }
-
-
-  .contentFooter {
+  
+  header {
+    height: 12.5vh;
+    padding: 1vh;
+  }
+  .buttonHeader {
+    font-size: 0.9em;
     display: flex;
+    justify-content: center;
+    width: 21vh;
+    padding: 2vw;
+  }
+  .headerRight {
+    font-size: 0.8em;
     flex-direction: column;
-    height: 100vh;
-  }
-}
-
-
-@media(hover:hover) {
-  .WeHelp:hover {
-    color: #FFCA41;
-  }
-}
-
-/*@media fBody*/
-
-@media (max-width: 920px) {
-  .containerFeatureBody {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-     }
-
-  .boxImgFBody {
-    height: 40vh;
-    width: 60vw;
   }
 
-  .imgFBody {
-    height: 40vh;
-    width: 35vw;
+  .logo {
+    font-size: 1em;
   }
 
-  .textTitle {
-    font-size: 3em;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  .bold {
-    width: 50vw;
-    text-align: center;
-  }
+    .headerRight {
+      font-size: 0.8em;
+      flex-direction: column;
+    }
+    .boxImgFBody {
+      display: none;
+    }
+  
+    .textTitle {
+      font-size: 2em;
+    }
+  
+    .bold {
+      width: 20vh;
+      text-align: center;
+    }
+  
+    .boxButtonFBody {
+      height: 25vh;
+      margin-top: 2vh;
+      justify-content: space-around;
+  
+    }
+    .buttonFBody {
+      width: 30vw;
+      margin: 8%;
+      padding: 2vw;
+    }
 
-  .boxButtonFBody {
-    height: 25vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .contentFooter {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
   }
-}
-
-@media (max-width: 500px) {
-  .boxImgFBody {
-    display: none;
+  @media(hover:hover) {
+    .WeHelp:hover {
+      color: #FFCA41;
+    }
   }
-
-  .textTitle {
-    font-size: 2em;
-  }
-
-  .bold {
-    width: 20vh;
-    text-align: center;
-  }
-
-  .boxButtonFBody {
-    height: 25vh;
-    margin-top: 2vh;
-    justify-content: space-around;
-
-  }
-}
+  
