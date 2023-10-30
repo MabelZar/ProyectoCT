@@ -180,12 +180,6 @@ header {
   border-radius: 100%;
 }
 
-.buttonFBody:hover {
-  background-color: white;
-  color: #FFCA41;
-  border-color: #FFCA41;
-  transition: 0.4s;
-}
 
 /*query */
 
@@ -246,10 +240,7 @@ header {
   }
 
 @media (max-width: 500px) {
-  body {
-    margin-left: 0%;
-    margin-right: 0%;
-  }
+  
   
   header {
     height: 12.5vh;
