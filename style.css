@@ -25,14 +25,25 @@ header {
     height: 12.5vh;
     padding: 1vh;
   }
+  .logo {
+    font-size: 1em;
+  }
+  .headerRight {
+    font-size: 0.8em;
+    flex-direction: column;
 
+
+  }
+
+}
   @media (max-width: 920px) {
     header {
       height: 12.5vh;
       padding: 1vh;
+      
     }
   }
-}
+
 
 .logo {
   display: flex;
@@ -60,6 +71,7 @@ header {
 
 }
 
+
 .You {
   color: #FFCA41;
   font-weight: bold;
@@ -81,6 +93,7 @@ header {
     font-size: 0.8em;
     flex-direction: column;
   }
+}
 
 
   @media (max-width: 920px) {
@@ -91,38 +104,36 @@ header {
       flex-direction: column;
     }
   }
-
-  .Equipo {
-    margin: 2vh
+  .Equipo{
+    margin:2vh
+    
   }
-
-  .buttonHeader {
-
-    padding: 0.5vh;
-    color: antiquewhite;
-    font-size: 2vh;
-    border-radius: 20px;
-    border-color: #FFCA41;
-    background-color: #e65d78;
-  }
+ 
+.buttonHeader {
+  
+  padding: 0.5vh;
+  color: antiquewhite;
+  font-size: 2vh;
+  border-radius: 20px;
+  border-color: #FFCA41;
+  background-color: #e65d78;
+}
 
   @media (max-width:920px) {
     .buttonHeader {
-      font-size: 1em;
-      width: 15vw;
-      padding: 0.5vw;
-    }
+    font-size: 1em;
+    padding: 0.5vw;
   }
-
-  @media (max-width:500px) {
-    .buttonHeader {
-      font-size: 0.9em;
-      display: flex;
-      justify-content: center;
-      width: 21vw;
-      padding: 2vw;
-    }
+}
+@media (max-width:500px) {
+  .buttonHeader {
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    width: 21vh;
+    padding: 2vw;
   }
+}
 
   /*feature Body*/
   .containerFeatureBody {
@@ -136,7 +147,6 @@ header {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
 
     }
   }
@@ -178,7 +188,6 @@ header {
   }
 
 
-
   .textTitle {
     color: #FF7F99;
     font-size: 4rem;
@@ -214,7 +223,7 @@ header {
     }
   }
 
-  */ .boxButtonFBody {
+  .boxButtonFBody {
     width: 30vw;
     height: 43vh;
     display: flex;
@@ -336,5 +345,3 @@ header {
       color: #FFCA41;
     }
   }
-
-  /* FOOTER*/
