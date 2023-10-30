@@ -272,7 +272,7 @@ header {
 
 .sizeImg {
   height: 19vh;
-  width: 12vw;
+  width: 12vh;
   border-radius: 100%;
   background-color: bisque;
   transform: scale(var(--escala, 1));
@@ -299,24 +299,43 @@ header {
 .none {
   overflow: hidden;
   height: 19vh;
-  width: 12vw;
+  width: 12vh;
   border-radius: 100%;
 }
 
-@media(max-width:600px) {
+@media(max-width:500px) {
   body {
     margin-left: 0%;
     margin-right: 0%;
   }
-
-
   .contentFooter {
     display: flex;
     flex-direction: column;
     height: 100vh;
   }
 }
+
+@media(max-width:900px) {
+  body {
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 100%;
+  }
+}
+
 /*
+  .contentFooter {
+   
+    background-color: #FF7F99;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
   .containerFeatureBody {
     display: flex;
     flex-direction: column;
