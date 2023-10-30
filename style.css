@@ -166,25 +166,26 @@ header {
 
 .textTitle {
   color: #FF7F99;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-top: 2vh;
   line-height: 82%;
-  word-wrap: break-word;
 }
 
 
 .bold {
   font-weight: bold;
   margin-top: 1.5vh;
+  line-height: 82%;
 }
 
 
 .boxButtonFBody {
-  width: 30vw;
-  height: 43vh;
+  width: 35vw;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   margin: 2vw;
+  
 }
 
 
@@ -193,9 +194,10 @@ header {
   border: none;
   color: white;
   font-weight: bold;
-  width: 30vw;
-  margin: 2px;
-  padding: 2vw;
+  width: 15vw;
+  margin: 6px;
+  padding: 1vw;
+  border-radius: 20px;
 }
 
 
@@ -353,7 +355,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+     }
 
   .boxImgFBody {
     height: 40vh;
@@ -362,13 +364,18 @@ header {
 
   .imgFBody {
     height: 40vh;
-    width: 30vw;
+    width: 35vw;
   }
 
   .textTitle {
     font-size: 3em;
     display: flex;
     justify-content: center;
+    text-align: center;
+  }
+  .bold {
+    width: 50vw;
+    text-align: center;
   }
 
   .boxButtonFBody {
