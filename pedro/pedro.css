@@ -16,11 +16,12 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
   height: 9vh;
   background-color: #FF7F99;
 
 }
+
+
 
 .logo {
   display: flex;
@@ -43,36 +44,38 @@ header {
 }
 
 .headerRight {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
-  margin-left: 40%;
-  width: 40vw;
+  margin-right: 2vh;
   color: antiquewhite;
   font-size: 2vh;
 }
+
+  
+.Equipo{
+  margin:2vh
+  
+}
+
+.buttonHeader {
+
+padding: 0.5vh;
+color: antiquewhite;
+font-size: 2vh;
+border-radius: 20px;
+border-color: #FFCA41;
+background-color: #e65d78;
+cursor:pointer;
+}
+
 
 /*.login{
     display: flex;
     justify-content: space-between; 
   }*/
-.contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 9vh;
-  margin-block-end: 5%;
-}
 
-.buttonLogin {
-  border-radius: 20px;
-  border-color: #FFCA41;
-  width: 10vw;
-
-  background-color: #FF7F99;
-  color: antiquewhite;
-  font-size: 2vh;
-}
 
 /*feature Body*/
 .containerFeatureBody {
@@ -115,7 +118,7 @@ h1 {
 
 p {
   font-weight: bold;
-  margin-top: 1.5vh;
+  
 }
 
 .boxButtonFBody {
@@ -187,6 +190,44 @@ p {
 .none {
   overflow: hidden;
     border-radius: 100%;
+}
+@media (max-width:920px) {
+  .buttonHeader {
+  font-size: 1em;
+  padding: 0.5vw;
+}
+.headerRight {
+  font-size: 5em;
+  display: flex;
+  font-size: 1em;
+  flex-direction: column;
+}
+header {
+  height: 12.5vh;
+  padding: 1vh;
+  
+}
+}
+@media (max-width:500px) {
+.buttonHeader {
+  font-size: 0.9em;
+  display: flex;
+  justify-content: center;
+  width: 21vh;
+  padding: 2vw;
+}
+header {
+  height: 12.5vh;
+  padding: 1vh;
+}
+.logo {
+  font-size: 1em;
+}
+.headerRight {
+  font-size: 0.8em;
+  flex-direction: column;
+
+}
 }
 
 /* FOOTER*/

@@ -25,23 +25,25 @@ header {
     height: 12.5vh;
     padding: 1vh;
   }
+
   .logo {
     font-size: 1em;
   }
+
   .headerRight {
     font-size: 0.8em;
     flex-direction: column;
 
   }
-
 }
-  @media (max-width: 920px) {
-    header {
-      height: 12.5vh;
-      padding: 1vh;
-      
-    }
+
+@media (max-width: 920px) {
+  header {
+    height: 12.5vh;
+    padding: 1vh;
+
   }
+}
 
 
 .logo {
@@ -58,6 +60,17 @@ header {
   font-size: 3vh;
 }
 
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1em;
+  }
+
+  .headerRight {
+    font-size: 0.8em;
+    flex-direction: column;
+  }
+
+}
 
 
 .You {
@@ -65,6 +78,7 @@ header {
   font-weight: bold;
   font-size: 3vh;
 }
+
 .headerRight {
   width: 100%;
   display: flex;
@@ -74,36 +88,46 @@ header {
   color: antiquewhite;
   font-size: 2vh;
 }
-  @media (max-width: 920px) {
-    .headerRight {
-      font-size: 5em;
-      display: flex;
-      font-size: 1em;
-      flex-direction: column;
-    }
+
+@media (max-width:500px) {
+  .headerRight {
+    font-size: 0.8em;
+    flex-direction: column;
   }
-  .Equipo{
-    margin:2vh
-    
+}
+
+
+@media (max-width: 920px) {
+  .headerRight {
+    font-size: 5em;
+    display: flex;
+    font-size: 1em;
+    flex-direction: column;
   }
- 
+}
+
+.Equipo {
+  margin: 2vh
+}
+
 .buttonHeader {
-  
+
   padding: 0.5vh;
   color: antiquewhite;
   font-size: 2vh;
   border-radius: 20px;
   border-color: #FFCA41;
   background-color: #e65d78;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-  @media (max-width:920px) {
-    .buttonHeader {
+@media (max-width:920px) {
+  .buttonHeader {
     font-size: 1em;
     padding: 0.5vw;
   }
 }
+
 @media (max-width:500px) {
   .buttonHeader {
     font-size: 0.9em;
@@ -114,26 +138,12 @@ header {
   }
 }
 
-/*.login{
-  display: flex;
-  justify-content: space-between; 
-}*/
-
 /*feature Body*/
+
 .containerFeatureBody {
   background-color: white;
   display: flex;
-  justify-content: space-between;
 
-}
-
-@media (max-width: 900px) {
-  .containerFeatureBody {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: auto;
-  }
 }
 
 .boxImgFBody {
@@ -154,103 +164,42 @@ header {
   width: 23vw;
 }
 
-@media (max-width: 480px) {
-  .boxImgFBody {
-    display: none;
-  }
-}
-
-  @media (max-width: 900px) {
-    .boxImgFBody {
-      height: 40vh;
-      width: 60vw;
-
-    }
-  }
-  @media (max-width: 900px) {
-    .imgFBody {  
-      height: 40vh;
-      width: 30vw;
-  }
-}
-
-
 .textTitle {
   color: #FF7F99;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-top: 2vh;
   line-height: 82%;
-  word-wrap: break-word;
-}
-
-@media (max-width: 480px) {
-  .textTitle {
-    font-size: 2em;
-  }
-}
-
-@media (max-width: 900px) {
-  .textTitle {
-    font-size: 3em;
-  }
 }
 
 
 .bold {
   font-weight: bold;
   margin-top: 1.5vh;
+  line-height: 82%;
 }
 
-*/ .boxButtonFBody {
-  width: 30vw;
-  height: 43vh;
+
+.boxButtonFBody {
+  width: 35vw;
+  height: 45vh;
   display: flex;
   flex-direction: column;
-  margin-top: 5vh;
-
+  margin: 2vw;
+  
 }
-
-@media (max-width: 480px) {
-  .boxButtonFBody {
-    width: auto;
-    height: 25vh;
-    margin-top: 2vh;
-    justify-content: space-around;
-
-  }
-}
-
-
-@media (max-width: 900px) {
-  .boxButtonFBody {
-    width: auto;
-    height: 25vh;
-  }
-}
-
 
 
 .buttonFBody {
-  margin-top: 3vh;
   background-color: #FFCA41;
   border: none;
   color: white;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 10vw;
+  width: 15vw;
+  margin: 6px;
   padding: 1vw;
   border-radius: 20px;
 }
 
-@media (max-width: 480px) {
-  .buttonFBody {
-    width: 30vw;
-    margin: 2px;
-    padding: 2vw;
-  }
-}
 
 .buttonFBody:hover {
   background-color: white;
@@ -308,41 +257,90 @@ header {
     margin-left: 0%;
     margin-right: 0%;
   }
-  .contentFooter {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+}
+
+.contentFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vh;
+  padding: 1vw;
+  border-radius: 20px;
+}
+
+@media (max-width: 500px) {
+  .buttonFBody {
+    width: 30vw;
+    margin: 8%;
+    padding: 2vw;
   }
 }
 
-@media(max-width:900px) {
-  body {
+.buttonFBody:hover {
+  background-color: white;
+  color: #FFCA41;
+  border-color: #FFCA41;
+  transition: 0.4s;
+}
+
+/* FOOTER*/
+.contentFooter {
+  background-color: #FF7F99;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.sizeImg {
+  height: 19vh;
+  width: 12vw;
+  border-radius: 100%;
+  background-color: bisque;
+  transform: scale(var(--escala, 1));
+  /*efecto zoom*/
+  transition: transform 0.25s;
+}
+
+.sizeImg:hover {
+  --escala: 1.2;
+  cursor: pointer;
+}
+
+.name {
+  color: aliceblue;
+}
+
+.boxIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+
+.none {
+  overflow: hidden;
+  height: 19vh;
+  width: 12vw;
+  border-radius: 100%;
+}
+
+@media(max-width:600px) {
+  .body {
     margin-left: 0%;
     margin-right: 0%;
-    height: 100%;
   }
-}
 
-/*
+
   .contentFooter {
-   
-    background-color: #FF7F99;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 5%;
-    padding-left: 5%;
-  }
-}
-
-  .containerFeatureBody {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100vh;
   }
+}
 
-}*/
 
 @media(hover:hover) {
   .WeHelp:hover {
@@ -350,4 +348,62 @@ header {
   }
 }
 
-/* FOOTER*/
+/*@media fBody*/
+
+@media (max-width: 920px) {
+  .containerFeatureBody {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     }
+
+  .boxImgFBody {
+    height: 40vh;
+    width: 60vw;
+  }
+
+  .imgFBody {
+    height: 40vh;
+    width: 35vw;
+  }
+
+  .textTitle {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .bold {
+    width: 50vw;
+    text-align: center;
+  }
+
+  .boxButtonFBody {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .boxImgFBody {
+    display: none;
+  }
+
+  .textTitle {
+    font-size: 2em;
+  }
+
+  .bold {
+    width: 20vh;
+    text-align: center;
+  }
+
+  .boxButtonFBody {
+    height: 25vh;
+    margin-top: 2vh;
+    justify-content: space-around;
+
+  }
+}
