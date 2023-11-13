@@ -1,0 +1,305 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* color: #FF7F99;
+   color: #FFCA41;*/
+  font-family: 'Jost', sans-serif;
+}
+
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: black;
+}
+
+/*header*/
+
+header {
+  display: flex;
+  height: 9vh;
+  background-color: #FF7F99;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-left: 3%;
+}
+
+.WeHelp {
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+.You {
+  color: #FFCA41;
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+.headerRight {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2vh;
+  color: antiquewhite;
+  font-size: 2vh;
+}
+
+.Equipo {
+  margin: 2vh
+}
+
+.buttonHeader {
+
+  padding: 0.5vh;
+  color: antiquewhite;
+  font-size: 2vh;
+  border-radius: 20px;
+  border-color: #FFCA41;
+  background-color: #e65d78;
+  cursor: pointer;
+}
+
+/*feature Body*/
+
+.containerFeatureBody {
+  background-color: white;
+  display: flex;
+
+}
+
+.boxImgFBody {
+  background-color: #FF7F99;
+  border-radius: 100% 0% 100% 100%;
+  height: 60vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2vw;
+  margin-top: 3%;
+  margin-block-end: 3%;
+}
+
+.imgFBody {
+  height: 50vh;
+  width: 23vw;
+}
+
+.textTitle {
+  color: #FF7F99;
+  font-size: 3.5rem;
+  margin-top: 2vh;
+  line-height: 82%;
+}
+
+
+.bold {
+  font-weight: bold;
+  margin-top: 2vh;
+  line-height: 82%;
+}
+
+
+.boxButtonFBody {
+  width: 35vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+  
+}
+
+.buttonFBody {
+  background-color: #FFCA41;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 15vw;
+  margin: 6px;
+  padding: 1vw;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+
+
+.buttonFBody:hover {
+  background-color: white;
+  color: #FFCA41;
+  border-color: #FFCA41;
+  transition: 0.4s;
+}
+
+/* FOOTER*/
+.contentFooter {
+  background-color: #FF7F99;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.sizeImg {
+  height: 19vh;
+  width: 18vh;
+  border-radius: 100%;
+  background-color: bisque;
+  transform: scale(var(--escala, 1));
+  /*efecto zoom*/
+  transition: transform 0.25s;
+}
+
+.sizeImg:hover {
+  --escala: 1.2;
+  cursor: pointer;
+}
+
+.name {
+  color: aliceblue;
+  margin-top: 5%;
+}
+
+.boxIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+
+.none {
+  overflow: hidden;
+  height: 19vh;
+  width: 18vh;
+  border-radius: 100%;
+}
+
+
+/*query */
+
+@media (max-width: 920px) {
+  body {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+ 
+  header {
+    height: 12.5vh;
+    padding: 1vh;
+  }
+  .headerRight {
+    font-size: 5em;
+    display: flex;
+    font-size: 1em;
+    flex-direction: column;
+  }
+  .buttonHeader {
+    font-size: 1em;
+    padding: 0.5vw;
+  }
+    .containerFeatureBody {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+       }
+  
+    .boxImgFBody {
+      height: 40vh;
+      width: 60vw;
+    }
+  
+    .imgFBody {
+      height: 40vh;
+      width: 35vw;
+    }
+  
+    .textTitle {
+      font-size: 3em;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .bold {
+      width: 50vw;
+      text-align: center;
+    }
+  
+    .boxButtonFBody {
+      height: 25vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+
+@media (max-width: 500px) {
+  
+  
+  header {
+    height: 12.5vh;
+    padding: 1vh;
+  }
+  .buttonHeader {
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    width: 21vh;
+    padding: 2vw;
+  }
+  .headerRight {
+    font-size: 0.8em;
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 1em;
+  }
+
+    .headerRight {
+      font-size: 0.8em;
+      flex-direction: column;
+    }
+    .boxImgFBody {
+      display: none;
+    }
+  
+    .textTitle {
+      font-size: 2em;
+    }
+  
+    .bold {
+      width: 20vh;
+      text-align: center;
+    }
+  
+    .boxButtonFBody {
+      height: 25vh;
+      margin-top: 2vh;
+      justify-content: space-around;
+  
+    }
+    .buttonFBody {
+      width: 30vw;
+      margin: 8%;
+      padding: 2vw;
+    }
+
+    .contentFooter {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+  }
+  @media(hover:hover) {
+    .WeHelp:hover {
+      color: #FFCA41;
+    }
+  }
+  
